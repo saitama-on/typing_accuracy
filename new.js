@@ -90,7 +90,7 @@ function performMark(){
 
 let count =0 ;
 document.addEventListener('keypress', (event) => {
-    if (event.key == ' ') {
+    if (event.code === 'Space' || event.key === '') {
         
         
         arr.push(input_box.value.trim());
