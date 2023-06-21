@@ -1,0 +1,77 @@
+input{
+
+    background-color:#d3d3d3;
+    width: 150vh;
+    height: 20vh;
+    padding-top: 0;
+    font-size: 15vh;
+    
+
+}
+
+#start_again{
+
+    border: none;
+    height: 4vh;
+    font-size: 2vh;
+    width: 16vh;
+    border-radius: 10%;
+    transition-delay: 2ms;
+}
+
+#start_again:hover{
+
+    background-color: aqua;
+
+}
+
+input[type="text"]{
+
+
+    size: 100vh;
+}
+
+#timer{
+
+    background-color: #9eff55;
+    flex: auto;
+    width: 20vh;
+    height: 20vh;
+    margin: 2vh;
+    
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    text-align:center;
+    font-size: 10vh;
+
+}
+
+#para{
+    
+    font-family:Verdana, Geneva,  sans-serif;
+    font-size: 6vh;
+    border: solid black 2px;
+    margin-bottom: 2vh;
+    
+    
+}
+
+mark{
+
+    
+    max-height: 6vh;
+    margin: none;
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 4vh;
+    
+    
+}
+
+span {
+
+    font-style: oblique;
+}
